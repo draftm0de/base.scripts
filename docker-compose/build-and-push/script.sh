@@ -126,16 +126,16 @@ for service in $(docker compose config --services); do
       echo "[I] next image tag: $next_image_tag"
 
       echo "[I] building docker image for service $service"
-      # docker compose -f docker-compose.yml build --no-cache --force-rm ${service}
+      docker compose -f docker-compose.yml build --no-cache --force-rm ${service}
 
       echo "[I] tag image with $image_name:$next_image_tag"
-      # docker tag $image_name:$image_tag $image_name:$next_image_tag
+      docker tag $image_name:$image_tag $image_name:$next_image_tag
 
       echo "[I] push image $image_name:$next_image_tag"
-      # docker image push $image_name:$next_image_tag
+      docker image push $image_name:$next_image_tag
 
       echo "[I] push image $image_name:$image_tag"
-      # docker image push $image_name:$image_tag
+      docker image push $image_name:$image_tag
     else
       echo $valid_image_tag
       exit 1
