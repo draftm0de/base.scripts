@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="60c62ea5-28f5-4ea9-9ecc-44c8ac77b78f" name="Changes" comment="extend documentation" />
+    <list default="true" id="60c62ea5-28f5-4ea9-9ecc-44c8ac77b78f" name="Changes" comment="add IDE project settings">
+      <change afterPath="$PROJECT_DIR$/.github/workflows/qa.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,6 +26,7 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2j1M4CZ6jDL6WMQcxyHQMsdb2Ka" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -59,7 +63,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1720549935845</updated>
-      <workItem from="1720549936986" duration="6763000" />
+      <workItem from="1720549936986" duration="7317000" />
     </task>
     <task id="LOCAL-00001" summary="initialize">
       <created>1720550936813</created>
@@ -103,7 +107,21 @@
       <option name="project" value="LOCAL" />
       <updated>1720558917295</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="extend documentation">
+      <created>1720559363795</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1720559363795</updated>
+    </task>
+    <task id="LOCAL-00008" summary="add IDE project settings">
+      <created>1720559430645</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1720559430645</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -112,6 +130,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initialize" />
     <MESSAGE value="uncomment docker compose, and push and tag commands" />
-    <option name="LAST_COMMIT_MESSAGE" value="uncomment docker compose, and push and tag commands" />
+    <MESSAGE value="extend documentation" />
+    <MESSAGE value="add IDE project settings" />
+    <option name="LAST_COMMIT_MESSAGE" value="add IDE project settings" />
   </component>
 </project>

@@ -1,0 +1,14 @@
+name: QA Tests
+
+on: [push]
+
+jobs:
+  qa_bash:
+    name: QA for all bash scripts
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout own repository and map as main
+        uses: actions/checkout@v4
+
+      - name: bash -n checks
+        run: find . -type f -name "*.sh" -exec bash -n {} \;
