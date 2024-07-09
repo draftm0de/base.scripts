@@ -62,7 +62,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1720549935845</updated>
-      <workItem from="1720549936986" duration="7388000" />
+      <workItem from="1720549936986" duration="7458000" />
     </task>
     <task id="LOCAL-00001" summary="initialize">
       <created>1720550936813</created>
@@ -127,7 +127,14 @@
       <option name="project" value="LOCAL" />
       <updated>1720559837603</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="add IDE project settings">
+      <created>1720559892092</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1720559892092</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
