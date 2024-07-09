@@ -2,7 +2,7 @@
 
 1. [docker-compose scripts](docker-compose/README.md)
 
-## github workflow
+## GitHub workflow
 ```
 name: Build and Push Images
 
