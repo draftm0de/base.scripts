@@ -107,7 +107,7 @@ if ! check_required_files; then
   exit 1
 fi
 
-for service in $(docker compose config --services); do
+for service in $(docker compose -f docker-compose.yml config --services); do
   full_image_name=$(get_image_name "${service}")
   image_name="${full_image_name%:*}"
   image_tag="${full_image_name##*:}"
