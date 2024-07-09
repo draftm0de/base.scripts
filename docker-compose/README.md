@@ -1,7 +1,8 @@
 # docker compose scripts
 
 ## build and push
-...
+### requires
+- bash
 
 
 #### Navigation

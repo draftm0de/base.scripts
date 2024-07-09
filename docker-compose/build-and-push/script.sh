@@ -1,5 +1,10 @@
 #!/bin/bash
 
+change_working_directory() {
+  local path=$1
+  cd $path
+}
+
 docker_logged_in() {
   username=$(docker info 2>&1 | grep "Username: ")
 }
@@ -80,12 +85,25 @@ get_next_image_tag() {
   echo "$major.$minor.$patch"
 }
 
+if [ ! -d "$1" ]; then
+  if [ -z $1 ]; then
+    echo "**error** first argument [path] is missing"
+  else
+    echo "**error** path <$1> does not exist"
+  fi
+  exit 1
+fi
+
+# verify if docker logged in
 if ! docker_logged_in; then
   echo "**error** docker login missing"
   exit 1
 fi
 
-if check_required_files; then
+
+# change working directory
+cd $1
+if ! check_required_files; then
   exit 1
 fi
 
