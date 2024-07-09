@@ -60,7 +60,7 @@ is_valid_image_tag() {
   echo $failure
 }
 
-get_next_image_tag() {
+get_next_ima ge_tag() {
   local base_version=$1
   local latest_version=$2
   major=$(echo "$latest_version" | cut -d. -f1)
