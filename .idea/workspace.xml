@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="60c62ea5-28f5-4ea9-9ecc-44c8ac77b78f" name="Changes" comment="add IDE project settings" />
+    <list default="true" id="60c62ea5-28f5-4ea9-9ecc-44c8ac77b78f" name="Changes" comment="fix script.sh failure">
+      <change afterPath="$PROJECT_DIR$/docker-compose.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker.api.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker.compose.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker.image.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/docker.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/scripts.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,7 +41,7 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "//wsl$/Debian/home/admin/projects/draftm0de/projects/base.scripts/docker-compose",
+    "last_opened_file_path": "//wsl$/Debian/home/admin/projects/draftm0de/projects/base.scripts/factory",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -43,11 +52,13 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="\\wsl$\Debian\home\admin\projects\draftm0de\projects\base.scripts\docker-compose" />
+      <recent name="\\wsl$\Debian\home\admin\projects\draftm0de\projects\base.scripts\factory" />
       <recent name="\\wsl$\Debian\home\admin\projects\draftm0de\projects\base.scripts" />
+      <recent name="\\wsl$\Debian\home\admin\projects\draftm0de\projects\base.scripts\docker-compose" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="\\wsl$\Debian\home\admin\projects\draftm0de\projects\base.scripts" />
+      <recent name="\\wsl$\Debian\home\admin\projects\draftm0de\projects\base.scripts\scripts" />
       <recent name="\\wsl$\Debian\home\admin\projects\draftm0de\projects\base.scripts\docker-compose\build-and-push" />
       <recent name="\\wsl$\Debian\home\admin\projects\draftm0de\projects\base.scripts\docker-compose" />
     </key>
@@ -60,7 +71,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1720549935845</updated>
-      <workItem from="1720549936986" duration="7661000" />
+      <workItem from="1720549936986" duration="7784000" />
+      <workItem from="1721161771894" duration="11417000" />
+      <workItem from="1721666135321" duration="15045000" />
     </task>
     <task id="LOCAL-00001" summary="initialize">
       <created>1720550936813</created>
@@ -146,7 +159,14 @@
       <option name="project" value="LOCAL" />
       <updated>1720560134638</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="fix script.sh failure">
+      <created>1720560252953</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1720560252953</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -157,6 +177,7 @@
     <MESSAGE value="uncomment docker compose, and push and tag commands" />
     <MESSAGE value="extend documentation" />
     <MESSAGE value="add IDE project settings" />
-    <option name="LAST_COMMIT_MESSAGE" value="add IDE project settings" />
+    <MESSAGE value="fix script.sh failure" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix script.sh failure" />
   </component>
 </project>
