@@ -4,14 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="60c62ea5-28f5-4ea9-9ecc-44c8ac77b78f" name="Changes" comment="fix script.sh failure">
+    <list default="true" id="60c62ea5-28f5-4ea9-9ecc-44c8ac77b78f" name="Changes" comment="redo all scripts&#10;actually provided&#10;- docker.sh&#10;- docker.compose.sh&#10;. docker.registry.sh">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker.api.sh" beforeDir="false" afterPath="$PROJECT_DIR$/docker.registry.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker.compose.sh" beforeDir="false" afterPath="$PROJECT_DIR$/docker.compose.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docker.sh" beforeDir="false" afterPath="$PROJECT_DIR$/docker.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/docker.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/scripts.sh" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +74,7 @@
       <workItem from="1720549936986" duration="7784000" />
       <workItem from="1721161771894" duration="11417000" />
       <workItem from="1721666135321" duration="15737000" />
-      <workItem from="1721839593366" duration="14762000" />
+      <workItem from="1721839593366" duration="15077000" />
     </task>
     <task id="LOCAL-00001" summary="initialize">
       <created>1720550936813</created>
@@ -178,7 +174,14 @@
       <option name="project" value="LOCAL" />
       <updated>1721681432293</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="redo all scripts&#10;actually provided&#10;- docker.sh&#10;- docker.compose.sh&#10;. docker.registry.sh">
+      <created>1721854625371</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1721854625371</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -190,6 +193,7 @@
     <MESSAGE value="extend documentation" />
     <MESSAGE value="add IDE project settings" />
     <MESSAGE value="fix script.sh failure" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix script.sh failure" />
+    <MESSAGE value="redo all scripts&#10;actually provided&#10;- docker.sh&#10;- docker.compose.sh&#10;. docker.registry.sh" />
+    <option name="LAST_COMMIT_MESSAGE" value="redo all scripts&#10;actually provided&#10;- docker.sh&#10;- docker.compose.sh&#10;. docker.registry.sh" />
   </component>
 </project>
