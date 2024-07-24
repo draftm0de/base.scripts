@@ -5,14 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="60c62ea5-28f5-4ea9-9ecc-44c8ac77b78f" name="Changes" comment="fix script.sh failure">
-      <change afterPath="$PROJECT_DIR$/docker-compose.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker.api.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker.compose.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker.image.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/docker.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/scripts.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker.api.sh" beforeDir="false" afterPath="$PROJECT_DIR$/docker.registry.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker.compose.sh" beforeDir="false" afterPath="$PROJECT_DIR$/docker.compose.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker.sh" beforeDir="false" afterPath="$PROJECT_DIR$/docker.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/docker.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/scripts.sh" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +22,11 @@
     <execution />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GithubDefaultAccount">
@@ -41,7 +45,7 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "//wsl$/Debian/home/admin/projects/draftm0de/projects/base.scripts/factory",
+    "last_opened_file_path": "//wsl$/Debian/home/admin/projects/draftm0de/projects/base.scripts",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -52,8 +56,8 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="\\wsl$\Debian\home\admin\projects\draftm0de\projects\base.scripts\factory" />
       <recent name="\\wsl$\Debian\home\admin\projects\draftm0de\projects\base.scripts" />
+      <recent name="\\wsl$\Debian\home\admin\projects\draftm0de\projects\base.scripts\factory" />
       <recent name="\\wsl$\Debian\home\admin\projects\draftm0de\projects\base.scripts\docker-compose" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -73,7 +77,8 @@
       <updated>1720549935845</updated>
       <workItem from="1720549936986" duration="7784000" />
       <workItem from="1721161771894" duration="11417000" />
-      <workItem from="1721666135321" duration="15045000" />
+      <workItem from="1721666135321" duration="15737000" />
+      <workItem from="1721839593366" duration="14762000" />
     </task>
     <task id="LOCAL-00001" summary="initialize">
       <created>1720550936813</created>
@@ -166,7 +171,14 @@
       <option name="project" value="LOCAL" />
       <updated>1720560252953</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="fix script.sh failure">
+      <created>1721681432293</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1721681432293</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
